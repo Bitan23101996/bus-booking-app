@@ -1,0 +1,127 @@
+<div class="bus-list-container">
+    <ng-container *ngIf="busList.length > 0">
+        <ng-container *ngFor="let bus of busList">
+            <div class="card mb-2">
+                <div class="card-body bus-card-body" [ngClass]="bus.busId === selectedBusId ? 'active' : '' ">
+                    <div class="row">
+                        <div class="col-3">
+                            <label class="info-label">
+                                <ng-container>{{bus.operatorName ? bus.operatorName : 'N/A'}}</ng-container>
+                            </label>
+                            <p class="info-label-value">
+                                <ng-container>{{bus.busName ? bus.busName : 'N/A'}}</ng-container>
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <label class="info-label">
+                                <ng-container>{{bus.boardingTime ? bus.boardingTime : 'N/A'}}</ng-container>
+                            </label>
+                            <p class="info-label-value">
+                                <ng-container>{{bus.boardingPoint ? bus.boardingPoint : 'N/A'}}</ng-container>
+                            </p>
+                        </div>
+                        <div class="col-2">
+                            <label>
+                                <ng-container>{{bus.journeyDuration ? bus.journeyDuration : 'N/A'}}</ng-container>
+                            </label>
+                        </div>
+
+                        <div class="col-2">
+                            <label class="info-label">
+                                <ng-container>{{bus.droppingTime ? bus.droppingTime : 'N/A'}}</ng-container>
+                            </label>
+                            <p class="info-label-value">
+                                <ng-container>{{bus.droppingPoint ? bus.droppingPoint : 'N/A'}}</ng-container>
+                            </p>
+                        </div>
+
+                        <div class="col-2">
+                            <label class="info-label">
+                                <ng-container>{{bus.availableSeat ? bus.availableSeat : 'N/A'}}</ng-container>
+                            </label>
+                            <p>Available Seats</p>
+                        </div>
+                        <div class="col-1">
+                            <label class="info-label">
+                                <ng-container>&#8377;{{bus.busFare ? bus.busFare : 'N/A'}}</ng-container>
+                            </label>
+                            <p>Fare</p>
+                        </div>
+
+                    </div>
+                    <div class="text-end">
+                        <button type="button" class="btn btn-primary btn-sm" (click)="displaySidebar(bus)">
+                            Select Bus
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </ng-container>
+
+</div>
+
+<p-sidebar [(visible)]="isSidebarVisible" position="right" styleClass="main-sidebar" [dismissible]="false" [closeOnEscape]="false">
+
+
+    <div class="sidebar-title-section">
+        <div class="row">
+            <div class="col-6">
+                <h3 class="sidebar-title">
+                    <ng-container *ngIf="isSeatSelectionPageVisible">Choose Your Seats</ng-container>
+                    <ng-container *ngIf="isPassengerInfoVisible">Enter Passenger Details</ng-container>
+                    <ng-container *ngIf="isReviewBusTicketVisible">Review Bus Ticket</ng-container>
+                    <ng-container *ngIf="isViewTicketVisible">View Ticket</ng-container>
+                </h3>
+            </div>
+            <div class="col-6 text-end">
+                <!-- <button *ngIf="isPassengerInfoVisible" type="button" class="btn btn-warning btn-sm mx-2"
+                    (click)="backToSeatSelection()">Back to Seat Selection</button> -->
+                <!-- <button *ngIf="isReviewBusTicketVisible" type="button" class="btn btn-warning btn-sm mx-2"
+                    (click)="backToPassengerDetails()">Back</button> -->
+                <button *ngIf="isPassengerInfoVisible" type="button" class="btn btn-success btn-sm mx-2"
+                    (click)="reviewTickit()" [disabled]="!isPassengerFormValid">Continue</button>
+                <button *ngIf="isReviewBusTicketVisible" type="button" class="btn btn-success btn-sm mx-2"
+                    (click)="viewTickit()">Continue & Confirm</button>
+                <button *ngIf="isSeatSelectionPageVisible" type="button" class="btn btn-success btn-sm mx-2"
+                    (click)="chooseYourSeatAndProceed()" [disabled]="selectedSeatList.length === 0">Proceed</button>
+                <button *ngIf="isViewTicketVisible" type="button" class="btn btn-sm btn-success mx-2" (click)="printOrDownloadTicket('PRINT')">Print</button>
+                <button *ngIf="isViewTicketVisible"  type="button" class="btn btn-sm btn-warning mx-2" (click)="printOrDownloadTicket('DOWNLOAD')">Download</button>
+                <button type="button" class="btn btn-danger btn-sm" (click)="closeSidebar()">Close</button>
+            </div>
+        </div>
+
+    </div>
+    <div [class]="!isViewTicketVisible ? 'sidebar-container' : ''">
+        <ng-container *ngIf="isSeatSelectionPageVisible">
+            <app-seat-selection [selectedBus]="selectedBus" (selectedSeats)="getSelectedSeatList($event)">
+            </app-seat-selection>
+        </ng-container>
+        <ng-container *ngIf="isPassengerInfoVisible">
+            <app-passenger-info [selectedSeats]="selectedSeatList" (passengerListInfo)="getPassengerDetails($event)"></app-passenger-info>
+        </ng-container>
+        <ng-container *ngIf="isReviewBusTicketVisible">
+            <app-review-ticket [selectedBus]="selectedBus" [passengerList]="passengerList"></app-review-ticket>
+        </ng-container>
+        <ng-container *ngIf="isViewTicketVisible">
+            <app-view-ticket [selectedBus]="selectedBus" [selectedSeats]="getCommaSeparatedSeats()"
+             [passengerList]="passengerList" [totalFare]="totalFare" (uniqueTicketId)="getUniqueTicketId($event)"></app-view-ticket>
+        </ng-container>
+
+    </div>
+    <div class="sidebar-footer" *ngIf="!isViewTicketVisible">
+        <div class="row">
+            <div class="col-9">
+                <label class="sidebar-label">Selected Seats:</label>
+                <p class="sidebar-label-value">
+                    {{getCommaSeparatedSeats()}}
+                </p>
+            </div>
+            <div class="col-3">
+                <label class="sidebar-label">Total Price:</label>
+                <p class="sidebar-label-value">&#8377;{{totalFare}}</p>
+            </div>
+        </div>
+
+    </div>
+</p-sidebar>

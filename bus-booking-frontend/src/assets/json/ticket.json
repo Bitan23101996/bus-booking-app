@@ -1,0 +1,28 @@
+{
+    "ticketId": "PNR#1234",
+    "totalFare": 1200,
+    "busDetails": {
+        "busId": 4567,
+        "operatorName": "XYZ Travels",
+        "busName": "Luxury Express",
+        "boardingPoint": "Downtown Station",
+        "droppingPoint": "Central Bus Terminal",
+        "boardingTime": "10:00 AM",
+        "droppingTime": "4:00 PM",
+        "journeyDate": "2025-03-25"
+    },
+    "passengerList": [
+        {
+            "seatNumber": 12,
+            "passengerName": "John Doe",
+            "age": 30,
+            "gender": "Male"
+        },
+        {
+            "seatNumber": 15,
+            "passengerName": "Jane Smith",
+            "age": 28,
+            "gender": "Female"
+        }
+    ]
+}

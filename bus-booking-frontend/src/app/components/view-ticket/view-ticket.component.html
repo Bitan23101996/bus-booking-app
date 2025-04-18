@@ -1,0 +1,68 @@
+<div class="container" id="ticketContent">
+    <!-- Extra content for print only -->
+    <div class="print-only">
+        <img src="assets/images/logo_1.jpeg" alt="Company Logo" class="print-logo"
+            style="height: 100px; width: 100px" />
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <label class="form-label">Ticket ID:</label>
+            <p>#{{ticketId}} </p>
+        </div>
+        <ng-container *ngIf="selectedBus">
+            <div class="col-6">
+                <label class="form-label">Bus Number:</label>
+                <p>{{selectedBus.busNumber}}</p>
+            </div>
+            <div class="col-6">
+                <label class="form-label">Bus Type:</label>
+                <p>{{selectedBus.busName}}</p>
+            </div>
+            <div class="col-6">
+                <label class="form-label">Operator Name:</label>
+                <p>{{selectedBus.operatorName}}</p>
+            </div>
+            <div class="col-6">
+                <label class="form-label">Journey Date:</label>
+                <p>{{selectedBus.journeyDate}} </p>
+            </div>
+            <div class="col-6">
+                <label class="form-label">Boarding Point:</label>
+                <p> {{selectedBus.boardingPoint}} - {{selectedBus.boardingTime}}</p>
+            </div>
+            <div class="col-6">
+                <label class="form-label">Dropping Point:</label>
+                <p>{{selectedBus.droppingPoint}} - {{selectedBus.droppingTime}}</p>
+            </div>
+        </ng-container>
+        <div class="col-6">
+            <label class="form-label">Seats Booked:</label>
+            <p>{{selectedSeats}}</p>
+        </div>
+        <div class="col-6">
+            <label class="form-label">Total Fare:</label>
+            <p>&#8377; {{totalFare}} </p>
+        </div>
+        <ng-container *ngIf="passengerList!.length > 0">
+            <ng-container *ngFor="let passenger of passengerList; let i = index">
+                <div class="col-6">
+                    <label class="form-label">Passenger {{i + 1}}:</label>
+                    <p>{{passenger?.passengerName}}, {{passenger?.age}} years -
+                        <ng-container *ngIf="passenger.gender && passenger.gender === 'M'">
+                            Male
+                        </ng-container>
+                        <ng-container *ngIf="passenger.gender && passenger.gender === 'F'">
+                            Female
+                        </ng-container>
+                    </p>
+                </div>
+            </ng-container>
+        </ng-container>
+    </div>
+
+
+    <div class="print-only mt-3">
+        <p><strong>Important Notes:</strong> Please keep this ticket for your reference.</p>
+    </div>
+
+</div>

@@ -1,0 +1,102 @@
+<div class="container-fluid review-ticket-container">
+    <div class="card">
+        <p-tabView styleClass="tabview-custom">
+            <p-tabPanel header="Header I">
+                <ng-template pTemplate="header">
+                    <div class="flex align-items-center gap-2">
+                        <i class="pi pi-map-marker" style="font-size: 1.8rem"></i>
+                        <span class="font-bold white-space-nowrap m-0">
+                            Journey Details
+                        </span>
+                    </div>
+                </ng-template>
+                <div class="row" *ngIf="selectedBus">
+                    <div class="col-4">
+                        <label class="form-label">Boarding Point</label>
+                        <p class="form-value">
+                            <ng-container>{{selectedBus.boardingPoint ? selectedBus.boardingPoint : 'N/A'}}</ng-container>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">Dropping Point</label>
+                        <p class="form-value">
+                            <ng-container>{{selectedBus.droppingPoint ? selectedBus.droppingPoint : 'N/A'}}</ng-container>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">Journey Date & Time</label>
+                        <p class="form-value">
+                            <ng-container>{{selectedBus.journeyDate ? selectedBus.journeyDate : 'N/A'}}</ng-container>
+                            &nbsp;&nbsp; - <ng-container>{{selectedBus.boardingTime ? selectedBus.boardingTime : 'N/A'}}</ng-container>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">Operator Name</label>
+                        <p class="form-value">
+                            <ng-container>{{selectedBus.operatorName ? selectedBus.operatorName : 'N/A'}}</ng-container>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">Bus Type</label>
+                        <p class="form-value">
+                            <ng-container>{{selectedBus.busName ? selectedBus.busName : 'N/A'}}</ng-container>
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label">Duration</label>
+                        <p class="form-value">
+                            <ng-container>{{selectedBus.journeyDuration ? selectedBus.journeyDuration : 'N/A'}}</ng-container>
+                        </p>
+                    </div>
+
+                </div>
+            </p-tabPanel>
+
+            <p-tabPanel header="Header II">
+                <ng-template pTemplate="header">
+                    <div class="flex align-items-center gap-2">
+                        <i class="pi pi-users" style="font-size: 1.8rem"></i>
+                        <span class="font-bold white-space-nowrap m-0">
+                            Passenger Details
+                        </span>
+                        <p-badge value="{{passengerList!.length}}" />
+                    </div>
+                </ng-template>
+                <ng-container *ngIf="passengerList!.length > 0">
+                    <fieldset class="border p-2 my-2" *ngFor="let passenger of passengerList">
+                        <legend class="float-none w-auto">Seat {{passenger.seatNumber ? passenger.seatNumber : 'N/A'}} - Passenger Details</legend>
+                        <div class="row">
+                            <div class="col-4">
+                                <label class="form-label">Passenger Name</label>
+                                <p class="form-value">
+                                    {{passenger.passengerName ? passenger.passengerName : 'N/A'}}
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label">Age</label>
+                                <p class="form-value">
+                                    {{passenger.age ? passenger.age : 'N/A'}} years.
+                                </p>
+                            </div>
+                            <div class="col-2">
+                                <label class="form-label">Gender</label>
+                                <p class="form-value">
+                                    <ng-container *ngIf="passenger.gender && passenger.gender === 'M'">
+                                        Male
+                                    </ng-container>
+                                    <ng-container *ngIf="passenger.gender && passenger.gender === 'F'">
+                                        Female
+                                    </ng-container>
+                                </p>
+                            </div>
+                            <div class="col-3">
+                                <label class="form-label">Conatact No.</label>
+                                <p class="form-value">{{passenger.contactNumber ? passenger.contactNumber : 'N/A'}}</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                </ng-container>
+            </p-tabPanel>
+        </p-tabView>
+    </div>
+</div>

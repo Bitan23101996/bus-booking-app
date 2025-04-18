@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+
+.main-sidebar {
+    width: 45rem;
+}
+
+.sidebar-close-btn {
+    position: absolute;
+    left: 3px;
+    background: red;
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    z-index: 10008;
+    top: 7px;
+}
+
+
+.main-sidebar .p-sidebar-header,
+.main-sidebar .p-sidebar-footer {
+    display: none;
+}
+
+.main-sidebar .sidebar-title-section {
+    border-bottom: 1px solid grey;
+}
+
+.main-sidebar.p-sidebar .p-sidebar-content {
+    padding: 0.9rem;
+}
+
+.sidebar-label {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.sidebar-label-value {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
+legend {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.form-label {
+    font-weight: 700;
+}
+
+.form-value {
+    /* margin-bottom: 0; */
+}
+
+.tabview-custom.p-tabview .p-tabview-nav {
+    border-width: 0 0 2px 0;
+    padding: 0;
+    margin: 0;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.btn.disabled,
+.btn:disabled {
+    cursor: not-allowed;
+}
+
+.custom-autocomplete .p-autocomplete-items {
+    padding-left: 0;
+}
+
+.print-only {
+    display: none;
+    /* Hide content on screen */
+}
+.p-inputtext{
+    padding: 0.5rem 0.5rem;
+    border-radius: 0;
+}
+
+.btn, .card{
+    border-radius: 0;
+}
+/* Print-specific styles */
+@media print {
+    .print-only {
+        display: block;
+        /* Show print-only content */
+        margin-top: 20px;
+    }
+
+    body * {
+        visibility: hidden;
+        /* Hide everything except the ticket content */
+    }
+
+    #ticketContent,
+    #ticketContent * {
+        visibility: visible;
+        /* Show only ticket content */
+    }
+
+    #ticketContent {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

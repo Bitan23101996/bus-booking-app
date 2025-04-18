@@ -1,0 +1,112 @@
+.seat-content{
+    display: flex;
+    justify-content: space-between;
+}
+.seat-container {
+    width: 280px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.seat-item-box {
+    padding: 10px;
+    display: inline-block;
+}
+
+.ml-60 {
+    margin-left: 60px;
+}
+
+
+/* Hide the default checkbox appearance */
+.seat-checkbox {
+    display: none;
+}
+
+.seat-info {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+    border: 2px solid #005f6a;
+}
+
+.seat-info-container {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.seat-selected {
+    background-color: #ff6347;
+}
+
+.seat-available {
+    background-color: #f7f7f7;
+}
+
+.seat-booked {
+    background-color: #8f8f8f;
+}
+
+.seat-label.booked {
+    background-color: #8f8f8f;
+    border-color: #8f8f8f;
+    color: white;
+    pointer-events: none;
+}
+
+
+/* Label that will style the "bus seat" */
+.seat-label {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    border: 2px solid #005f6a;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* When checkbox is checked, display the number (1, 2, etc.) instead of the checkmark */
+.seat-checkbox:checked+.seat-label {
+    background-color: #ff6347;
+    /* Occupied seat color */
+    border-color: #b94a48;
+    color: white;
+}
+
+.seat-checkbox:checked+.seat-label::after {
+    content: '';
+    /* Use the data-seat-number attribute to display the seat number */
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Optional: Hover effect for better UI */
+.seat-label:hover {
+    background-color: #4682B4;
+    transform: scale(1.05);
+}
+
+/* Optional: Focus effect when user clicks */
+.seat-checkbox:focus+.seat-label {
+    outline: 3px solid #FFD700;
+}
+
+.mt-50{
+    margin-top: 50px;
+}

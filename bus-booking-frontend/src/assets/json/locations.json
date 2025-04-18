@@ -1,0 +1,43 @@
+[
+    {
+      "locationId": "ASL",
+      "locationName": "Asansol"
+    },
+    {
+      "locationId": "BNK",
+      "locationName": "Bankura"
+    },
+    {
+      "locationId": "PURI",
+      "locationName": "Puri"
+    },
+    {
+      "locationId": "DGH",
+      "locationName": "Digha"
+    },
+    {
+      "locationId": "SGR",
+      "locationName": "Siliguri"
+    },
+    {
+      "locationId": "KOL_ESPL",
+      "locationName": "Kolkata(Esplanade)"
+    },
+    {
+      "locationId": "DGC_CTC",
+      "locationName": "Durgapur(City Center)"
+    },
+    {
+      "locationId": "MLD",
+      "locationName": "Malda"
+    },
+    {
+      "locationId": "HGLY",
+      "locationName": "Hoogly"
+    },
+    {
+      "locationId": "BRM",
+      "locationName": "Birbhum"
+    }
+  ]
+  

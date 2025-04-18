@@ -1,0 +1,67 @@
+<div class="container">
+    <div class="card shadow mb-4">
+        <!-- <div class="card-header text-center"><h4>Search Bus</h4></div> -->
+        <div class="card-body">
+            <form [formGroup]="busSearchForm">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-3 text-center">
+                        <p-autoComplete formControlName="source" [suggestions]="sourceLocations"
+                            panelStyleClass="custom-autocomplete" (completeMethod)="searchSourceLocation($event)"
+                            field="name" [minLength]="2" [autoHighlight]="true" [forceSelection]="true"
+                            placeholder="Type source location" optionLabel="locationName">
+                            <ng-template let-location pTemplate="item">
+                                <div>{{ location }}</div>
+                            </ng-template>
+                        </p-autoComplete>
+                        <div *ngIf="busSearchForm.get('source')?.invalid && busSearchForm.get('source')?.touched"
+                            class="text-danger">
+                            Source is required
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-3 text-center">
+                        <p-autoComplete formControlName="destination" [suggestions]="destinationLocations"
+                            panelStyleClass="custom-autocomplete" (completeMethod)="searchDestinationLocation($event)"
+                            field="name" [minLength]="2" [autoHighlight]="true" [forceSelection]="true"
+                            placeholder="Type destination location" optionLabel="locationName">
+                            <ng-template let-location pTemplate="item">
+                                <div>{{ location }}</div>
+                            </ng-template>
+                        </p-autoComplete>
+                        <div *ngIf="busSearchForm.get('destination')?.invalid && busSearchForm.get('destination')?.touched"
+                            class="text-danger">
+                            Destination is required
+                        </div>
+                        <div *ngIf="busSearchForm.get('destination')?.hasError('sameLocation')" class="text-danger">
+                            Source and destination cannot be the same
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-3 text-center">
+                        <p-calendar placeholder="Choose travel date" formControlName="travelDate" [showOnFocus]="false"
+                            [showIcon]="true" [readonlyInput]="true" dateFormat="dd/mm/yy" />
+                        <div *ngIf="busSearchForm.get('travelDate')?.invalid && busSearchForm.get('travelDate')?.touched"
+                            class="text-danger">
+                            Travel date is required
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 col-3 text-center">
+                        <button type="button" class="btn btn-primary btn-lg" [disabled]="busSearchForm.invalid"
+                            (click)="searchBuses()">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <ng-container *ngIf="availableBuses.length > 0">
+        <h4>{{availableBuses.length}} available Buses found:</h4>
+        <app-bus-list [busList]="availableBuses"></app-bus-list>
+    </ng-container>
+    <ng-container *ngIf="availableBuses.length === 0 && isDataFetched">
+        <div class="card">
+            <div class="card-body text-center">
+                <h4 class="text-danger">No bus found.</h4>
+            </div>
+        </div>
+
+    </ng-container>
+</div>

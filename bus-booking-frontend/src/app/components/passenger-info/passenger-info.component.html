@@ -1,0 +1,48 @@
+<div class="container-fluid passenger-details-container">
+    <ng-container *ngIf="selectedSeats!.length > 0">
+        <form [formGroup]="passengerForm" autocomplete="off">
+            <div formArrayName="passengers">
+                <fieldset class="border p-2 my-2" *ngFor="let passenger of passengers.controls; let i = index" [formGroupName]="i">
+                        <legend class="float-none w-auto">Seat {{passenger.get('seatNumber')?.value}} - Passenger Details</legend>
+                        <div class="row" >
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="p-name{{i}}">Passenger name<span
+                                            class="text-danger">*</span>:</label>
+                                    <input class="form-control" id="p-name{{i}}" type="text" formControlName="passengerName"
+                                        placeholder="Enter Name" maxlength="20" />
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="p-age{{i}}">Age<span
+                                            class="text-danger">*</span>:</label>
+                                    <input class="form-control" id="p-age{{i}}" type="text" formControlName="age"
+                                        placeholder="Enter Age" appNumbersOnly maxlength="2"/>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="p-gender{{i}}">Gender<span
+                                            class="text-danger">*</span>:</label>
+                                    <select class="form-control" id="p-gender{{i}}" formControlName="gender">
+                                        <option value="0" selected disabled>Choose Gender</option>
+                                        <option value="M">Male</option>
+                                        <option value="F">Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label class="form-label" for="p-contact{{i}}">Contact No.<span
+                                            class="text-danger">*</span>:</label>
+                                    <input class="form-control" id="p-contact{{i}}" type="text" formControlName="contactNumber"
+                                        placeholder="Enter contact no" appNumbersOnly maxlength="10" />
+                                </div>
+                            </div>
+                        </div>
+                </fieldset>
+            </div>
+        </form>
+    </ng-container>
+</div>

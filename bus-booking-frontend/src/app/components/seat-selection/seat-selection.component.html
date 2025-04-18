@@ -1,0 +1,45 @@
+<!-- <div class="seat-container">
+    <ng-container *ngIf="listOfSeat.length > 0" >
+        <ng-container *ngFor="let seat of listOfSeat">
+            <div class="seat-item-box"  [ngClass]="seat?.rowPosition?.isSeperate ? 'ml-60' : ''">
+                <input type="checkbox" id="seat1" class="seat-checkbox" (click)="isChecked($event)">  {{seat.seatNumber}}
+            </div>
+        </ng-container>
+    </ng-container>
+</div> -->
+
+<div class="seat-content">
+    <div class="seat-container">
+        <ng-container *ngIf="listOfSeat!.length > 0">
+            <!-- {{listOfSeat.length}} -->
+            <ng-container *ngFor="let seat of listOfSeat">
+                <div class="seat-item-box" [ngClass]="seat?.rowPosition?.isSeperate ? 'ml-60' : ''">
+                    <input type="checkbox" [id]="seat.seatId" class="seat-checkbox" (change)="selectSeat($event, seat)" [checked]="seat.isSelected">
+                    <label [for]="seat.seatId" class="seat-label" [ngClass]="seat?.isAvailable ? '' : 'booked' "  
+                    tooltip="Seat No: {{seat.seatNumber}},  Price: {{seat?.seatPrice}}"  placement="auto"> {{seat.seatNumber}}</label>
+                </div>
+    
+            </ng-container>
+    
+        </ng-container>
+    
+    </div>
+    
+    <div class="seat-info-details">
+        <div class="seat-info-container mt-50">
+            <label class="seat-info seat-selected"></label>
+            <span>Selected</span>
+        </div>
+        <div class="seat-info-container">
+            <label class="seat-info seat-available"></label>
+            <span>Available</span>
+        </div>
+        <div class="seat-info-container">
+            <label class="seat-info seat-booked"></label>
+            <span>Booked</span>
+        </div>
+    </div>
+    <div></div>
+</div>
+
+<p-toast  key="toastMessageKey"/>

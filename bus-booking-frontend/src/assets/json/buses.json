@@ -1,0 +1,3122 @@
+[
+  {
+    "busId": 1,
+    "busNumber": "WB14N-5446",
+    "operatorName": "Express Line",
+    "busName": "Volvo 9600 A/C Seater (2+2)",
+    "boardingPoint": "Kolkata(Esplanade)",
+    "droppingPoint": "Durgapur(City Center)",
+    "availableSeat": 36,
+    "busFare": 486.00,
+    "boardingTime": "08:00 AM",
+    "droppingTime": "11:30 AM",
+    "journeyDuration": "3h 30m",
+    "journeyDate": "27/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 30,
+        "seatNumber": 30,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 31,
+        "seatNumber": 31,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 32,
+        "seatNumber": 32,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 33,
+        "seatNumber": 33,
+        "isAvailable": false,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 34,
+        "seatNumber": 34,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 35,
+        "seatNumber": 35,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 36,
+        "seatNumber": 36,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 37,
+        "seatNumber": 37,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 486.00,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 2,
+    "busNumber": "WB14N-9446",
+    "operatorName": "Easy Ride",
+    "busName": "Volvo A/C Seater (2+2)",
+    "boardingPoint": "Asansol",
+    "droppingPoint": "Bankura",
+    "availableSeat": 37,
+    "busFare": 300,
+    "boardingTime": "09:30 AM",
+    "droppingTime": "11:15 AM",
+    "journeyDuration": "1h 45m",
+    "journeyDate": "14/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 30,
+        "seatNumber": 30,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 31,
+        "seatNumber": 31,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 32,
+        "seatNumber": 32,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 33,
+        "seatNumber": 33,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 34,
+        "seatNumber": 34,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 35,
+        "seatNumber": 35,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 36,
+        "seatNumber": 36,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 37,
+        "seatNumber": 37,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 300,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 3,
+    "busNumber": "WB14N-9046",
+    "operatorName": "Shyamoli Paribahan Pvt Ltd",
+    "busName": "Volvo 9600 Multi Axle Semi-Sleeper (2+2)",
+    "boardingPoint": "Puri",
+    "droppingPoint": "Digha",
+    "availableSeat": 37,
+    "busFare": 1500,
+    "boardingTime": "10:00 AM",
+    "droppingTime": "05:00 PM",
+    "journeyDuration": "7h",
+    "journeyDate": "23/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 30,
+        "seatNumber": 30,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 31,
+        "seatNumber": 31,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 32,
+        "seatNumber": 32,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 33,
+        "seatNumber": 33,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 34,
+        "seatNumber": 34,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 35,
+        "seatNumber": 35,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 36,
+        "seatNumber": 36,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 37,
+        "seatNumber": 37,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 4,
+    "busNumber": "OD14N-5446",
+    "operatorName": "Greenline",
+    "busName": "Scania Multi-Axle AC Semi Sleeper (2+2)",
+    "boardingPoint": "Siliguri",
+    "droppingPoint": "Kolkata(Esplanade)",
+    "availableSeat": 37,
+    "busFare": 2000,
+    "boardingTime": "11:00 PM",
+    "droppingTime": "12:00 AM",
+    "journeyDuration": "12h 0m",
+    "journeyDate": "26/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 30,
+        "seatNumber": 30,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 31,
+        "seatNumber": 31,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 32,
+        "seatNumber": 32,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 33,
+        "seatNumber": 33,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 34,
+        "seatNumber": 34,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 35,
+        "seatNumber": 35,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 36,
+        "seatNumber": 36,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 37,
+        "seatNumber": 37,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 2000,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 5,
+    "busNumber": "MH14N-5446",
+    "operatorName": "Express Line",
+    "busName": "Volvo 9600 A/C Seater (2+2)",
+    "boardingPoint": "Durgapur(City Center)",
+    "droppingPoint": "Asansol",
+    "availableSeat": 37,
+    "busFare": 250.00,
+    "boardingTime": "06:00 AM",
+    "droppingTime": "07:00 AM",
+    "journeyDuration": "1h 0m",
+    "journeyDate": "12/04/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 30,
+        "seatNumber": 30,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 31,
+        "seatNumber": 31,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 32,
+        "seatNumber": 32,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 8,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 33,
+        "seatNumber": 33,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 34,
+        "seatNumber": 34,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 35,
+        "seatNumber": 35,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 36,
+        "seatNumber": 36,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 37,
+        "seatNumber": 37,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 250,
+        "rowPosition": {
+          "rowNo": 9,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 6,
+    "busNumber": "DL14N-9046",
+    "operatorName": "Easy Ride",
+    "busName": "Volvo A/C Seater (2+2)",
+    "boardingPoint": "Bankura",
+    "droppingPoint": "Puri",
+    "availableSeat": 29,
+    "busFare": 1250,
+    "boardingTime": "07:30 AM",
+    "droppingTime": "05:00 PM",
+    "journeyDuration": "9h 30m",
+    "journeyDate": "23/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1250,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 7,
+    "busNumber": "WB16F-5446",
+    "operatorName": "Shyamoli Paribahan Pvt Ltd",
+    "busName": "Volvo 9600 Multi Axle Semi-Sleeper (2+2)",
+    "boardingPoint": "Kolkata(Esplanade)",
+    "droppingPoint": "Siliguri",
+    "availableSeat": 29,
+    "busFare": 1500,
+    "boardingTime": "09:00 PM",
+    "droppingTime": "09:30 AM",
+    "journeyDuration": "12h 30m",
+    "journeyDate": "11/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 1500,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      }
+    ]
+  },
+  {
+    "busId": 8,
+    "busNumber": "WB14N-5006",
+    "operatorName": "Easy Ride",
+    "busName": "Volvo A/C Seater (2+2)",
+    "boardingPoint": "Kolkata(Esplanade)",
+    "droppingPoint": "Durgapur(City Center)",
+    "availableSeat": 29,
+    "busFare": 580,
+    "boardingTime": "03:30 PM",
+    "droppingTime": "06:00 PM",
+    "journeyDuration": "2h 30m",
+    "journeyDate": "27/03/2025",
+    "seatDetails": [
+      {
+        "seatId": 1,
+        "seatNumber": 1,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 2,
+        "seatNumber": 2,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 3,
+        "seatNumber": 3,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 4,
+        "seatNumber": 4,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 1,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 5,
+        "seatNumber": 5,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 6,
+        "seatNumber": 6,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 7,
+        "seatNumber": 7,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 8,
+        "seatNumber": 8,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 2,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 9,
+        "seatNumber": 9,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 10,
+        "seatNumber": 10,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 11,
+        "seatNumber": 11,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 12,
+        "seatNumber": 12,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 3,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 13,
+        "seatNumber": 13,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 14,
+        "seatNumber": 14,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 15,
+        "seatNumber": 15,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 16,
+        "seatNumber": 16,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 4,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 17,
+        "seatNumber": 17,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 18,
+        "seatNumber": 18,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 19,
+        "seatNumber": 19,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 20,
+        "seatNumber": 20,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 5,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 21,
+        "seatNumber": 21,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 22,
+        "seatNumber": 22,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 23,
+        "seatNumber": 23,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": true
+        }
+      },
+      {
+        "seatId": 24,
+        "seatNumber": 24,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 6,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 25,
+        "seatNumber": 25,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 26,
+        "seatNumber": 26,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 27,
+        "seatNumber": 27,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 28,
+        "seatNumber": 28,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      },
+      {
+        "seatId": 29,
+        "seatNumber": 29,
+        "isAvailable": true,
+        "isSelected": false,
+        "seatPrice": 580,
+        "rowPosition": {
+          "rowNo": 7,
+          "isSeperate": false
+        }
+      }
+    ]
+  }
+]
